@@ -62,3 +62,18 @@ function displayBookings() {
   });
   updateCounter();
     }
+function editBooking(index) {
+  let b = bookings[index];
+
+  document.getElementById("name").value = b.name;
+  document.getElementById("phone").value = b.phone;
+  document.getElementById("address").value = b.address;
+  document.getElementById("service").value = b.service;
+  document.getElementById("date").value = b.date;
+
+  bookings.splice(index, 1);
+
+  localStorage.setItem("cleanslate_bookings", JSON.stringify(bookings));
+
+  displayBookings();
+    }
