@@ -22,7 +22,8 @@ function bookService() {
     phone,
     address,
     service,
-    date
+    date,
+    status: "Pending"
   };
 
   bookings.push(booking);
