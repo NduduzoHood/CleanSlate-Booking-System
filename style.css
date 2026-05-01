@@ -119,4 +119,15 @@ button:hover {
 .service-card:hover {
   transform: scale(1.03);
   border-color: #00e676;
+}button {
+  margin-top: 5px;
+  padding: 6px 10px;
+  background: #ffd740;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+button:hover {
+  opacity: 0.8;
+  }
