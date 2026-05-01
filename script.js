@@ -3,7 +3,9 @@ let bookings = JSON.parse(localStorage.getItem("cleanslate_bookings")) || [];
 window.onload = function () {
   displayBookings();
 };
-
+function updateCounter() {
+  document.getElementById("count").innerText = bookings.length;
+}
 function bookService() {
   let name = document.getElementById("name").value;
   let phone = document.getElementById("phone").value;
