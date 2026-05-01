@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CleanSlate Solutions</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>CleanSlate Solutions</h1>
+    <p>Book professional cleaning services easily</p>
+  </header>
+
+  <section class="booking">
+    <h2>Book a Service</h2>
+
+    <input type="text" id="name" placeholder="Full Name" />
+    <input type="tel" id="phone" placeholder="Phone Number" />
+    <input type="text" id="address" placeholder="Address" />
+
+    <select id="service">
+      <option value="Home Cleaning">Home Cleaning</option>
+      <option value="Office Cleaning">Office Cleaning</option>
+      <option value="Deep Cleaning">Deep Cleaning</option>
+    </select>
+
+    <input type="date" id="date" />
+
+    <button onclick="bookService()">Book Now</button>
+  </section>
+
+  <section class="list">
+    <h2>Your Bookings</h2>
+    <ul id="bookings"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+    </html>
