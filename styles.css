@@ -45,3 +45,58 @@ ul {
   list-style: none;
   padding: 0;
 }
+.admin-body {
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.admin-header {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  border-bottom: 2px solid #00e676;
+}
+
+.admin-header h1 {
+  margin: 0;
+  color: #00e676;
+}
+
+.admin-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+#admin-list {
+  list-style: none;
+  padding: 0;
+}
+
+#admin-list li {
+  background: #1e1e1e;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid #00e676;
+  transition: 0.2s;
+}
+
+#admin-list li:hover {
+  transform: scale(1.01);
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #ff5252;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff1744;
+}
