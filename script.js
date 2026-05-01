@@ -60,4 +60,5 @@ function displayBookings() {
     `;
     list.appendChild(li);
   });
+  updateCounter();
     }
